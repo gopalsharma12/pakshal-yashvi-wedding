@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pakshal & Yashvi — Wedding Invitation</title>
+<meta name="description" content="Nagotra Chouhan Family invites you to the wedding celebration of Pakshal & Yashvi — 30 Nov to 2 Dec 2026, Rawla Sagrun, Kumbhalgarh.">
+<meta property="og:title" content="Pakshal & Yashvi — Wedding Invitation">
+<meta property="og:description" content="A Jain royal wedding in the Aravallis · Rawla Sagrun, Kumbhalgarh · 30 Nov – 2 Dec 2026">
+<meta property="og:image" content="assets/c42.jpg">
+<meta name="theme-color" content="#4a0d1a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<style>
+:root{
+  --maroon:#4a0d1a; --maroon2:#2b0610; --wine:#7a1730; --gold:#e3b75f; --gold2:#f7e2a1; --gold3:#a97b2c;
+  --ivory:#fbf3df; --ink:#2a1209;
+  --serif:'Cormorant Garamond',serif; --disp:'Cinzel Decorative','Cinzel',serif; --cin:'Cinzel',serif; --script:'Great Vibes',cursive;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--maroon2);color:var(--ivory);font-family:var(--serif);font-size:20px;line-height:1.55;overflow-x:hidden}
+body.locked{overflow:hidden;height:100vh}
+img{display:block;max-width:100%}
+.gold{background:linear-gradient(100deg,#a97b2c 0%,#f7e2a1 25%,#e3b75f 45%,#fff3c4 55%,#c18f35 75%,#f7e2a1 100%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 6s linear infinite}
+@keyframes shine{to{background-position:-250% 0}}
+.eyebrow{font-family:var(--cin);letter-spacing:.38em;text-transform:uppercase;font-size:.72rem;color:var(--gold)}
+h2.sec{font-family:var(--disp);font-weight:400;font-size:clamp(1.9rem,5vw,3.4rem);text-align:center;line-height:1.15}
+.orn{display:flex;align-items:center;justify-content:center;gap:14px;margin:18px auto;color:var(--gold);max-width:340px}
+.orn:before,.orn:after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}
+.orn:after{transform:scaleX(-1)}
+.orn i{font-style:normal;font-size:1.1rem;animation:spin 8s linear infinite;display:inline-block}
+@keyframes spin{to{transform:rotate(360deg)}}
+section{position:relative;padding:110px 22px;overflow:hidden}
+.wrap{max-width:1040px;margin:0 auto;position:relative;z-index:2}
+
+/* progress + music */
+#bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--gold3),var(--gold2));z-index:90;box-shadow:0 0 12px var(--gold)}
+#music{position:fixed;right:16px;bottom:16px;z-index:95;width:52px;height:52px;border-radius:50%;border:1px solid var(--gold);background:rgba(43,6,16,.75);backdrop-filter:blur(8px);color:var(--gold);font-size:1.3rem;cursor:pointer;display:none;align-items:center;justify-content:center;box-shadow:0 0 0 0 rgba(227,183,95,.6);animation:pulse 2.4s infinite}
+#music.on{display:flex}
+#music.paused{animation:none;opacity:.7}
+@keyframes pulse{70%{box-shadow:0 0 0 16px rgba(227,183,95,0)}100%{box-shadow:0 0 0 0 rgba(227,183,95,0)}}
+canvas#fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:50}
+
+/* GATE */
+#gate{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(ellipse at center,#5a1022,#1d040b 75%)}
+.door{position:absolute;top:0;bottom:0;width:50.2%;background:
+  radial-gradient(circle at 50% 50%,rgba(227,183,95,.12) 0 2px,transparent 3px) 0 0/34px 34px,
+  linear-gradient(180deg,#5c1226,#3a0916);
+  border:2px solid var(--gold3);z-index:2;transition:none}
+.door.l{left:0;border-right-width:1px;transform-origin:left center}
+.door.r{right:0;border-left-width:1px;transform-origin:right center}
+.door:after{content:"";position:absolute;inset:7% 9%;border:1px solid var(--gold);border-radius:999px 999px 0 0;opacity:.7;box-shadow:inset 0 0 40px rgba(227,183,95,.12)}
+.door.l:after{border-right:none;border-radius:999px 0 0 0}
+.door.r:after{border-left:none;border-radius:0 999px 0 0}
+.gate-in{position:relative;z-index:5;text-align:center;padding:20px}
+.gate-in .om{font-family:'Tiro Devanagari Hindi',serif;font-size:1.3rem;color:var(--gold);margin-bottom:10px;letter-spacing:.1em}
+.mono{font-family:var(--disp);font-size:clamp(3rem,13vw,6rem);line-height:1;margin:6px 0 4px}
+.mono span{display:inline-block;font-family:var(--script);font-size:.7em;margin:0 .1em}
+.gate-in p{font-family:var(--cin);letter-spacing:.3em;font-size:.72rem;text-transform:uppercase;color:var(--gold2);opacity:.9}
+.seal{margin-top:34px;position:relative;width:118px;height:118px;border-radius:50%;border:none;cursor:pointer;color:#fff3c4;font-family:var(--cin);font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;background:radial-gradient(circle at 35% 30%,#ff5b6f,#a3142e 55%,#5a0a1a);box-shadow:0 10px 40px rgba(0,0,0,.6),inset 0 0 0 5px rgba(0,0,0,.15),inset 0 0 0 7px rgba(247,226,161,.55);animation:breathe 2.6s ease-in-out infinite}
+.seal:before{content:"";position:absolute;inset:-12px;border-radius:50%;border:1px solid var(--gold);animation:ring 2.6s ease-out infinite}
+@keyframes breathe{50%{transform:scale(1.07)}}
+@keyframes ring{from{transform:scale(.85);opacity:1}to{transform:scale(1.4);opacity:0}}
+
+/* HERO */
+#hero{min-height:100vh;min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:90px 20px;background:#1d040b}
+#hero .bg{position:absolute;inset:-8% 0;background:url(assets/c42.jpg) center/cover;filter:saturate(1.1) brightness(.85)}
+#hero:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,rgba(43,6,16,.25),rgba(43,6,16,.8) 90%),linear-gradient(180deg,transparent 60%,var(--maroon2))}
+.hero-c{position:relative;z-index:3}
+.hero-c .family{font-family:var(--cin);letter-spacing:.35em;text-transform:uppercase;font-size:clamp(.7rem,2.4vw,.95rem);color:var(--gold2)}
+.names{font-family:var(--disp);font-size:clamp(2.6rem,11.5vw,7.4rem);line-height:1.02;margin:22px 0 10px;filter:drop-shadow(0 6px 24px rgba(0,0,0,.55))}
+.names .amp{display:block;font-family:var(--script);font-size:.6em;line-height:.9;color:var(--gold2);-webkit-text-fill-color:var(--gold2)}
+.ch{display:inline-block;background:linear-gradient(100deg,#a97b2c 0%,#f7e2a1 25%,#e3b75f 45%,#fff3c4 55%,#c18f35 75%,#f7e2a1 100%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 6s linear infinite}
+.ribbon{display:inline-block;margin:10px 0 22px;padding:9px 42px;background:linear-gradient(180deg,#8a1a34,#5b0e22);border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);font-family:var(--cin);letter-spacing:.35em;font-size:.8rem;text-transform:uppercase;color:var(--gold2);clip-path:polygon(0 0,100% 0,96% 50%,100% 100%,0 100%,4% 50%)}
+.hero-date{font-size:clamp(1.3rem,4vw,2rem);font-style:italic;color:var(--ivory)}
+.hero-loc{font-family:var(--cin);letter-spacing:.25em;font-size:.78rem;color:var(--gold);margin-top:8px;text-transform:uppercase}
+.scrollhint{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:4;font-family:var(--cin);font-size:.62rem;letter-spacing:.4em;color:var(--gold);text-transform:uppercase;text-align:center}
+.scrollhint:after{content:"";display:block;width:1px;height:42px;margin:10px auto 0;background:linear-gradient(var(--gold),transparent);animation:drip 2s infinite}
+@keyframes drip{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* SHLOKA */
+#shloka{background:linear-gradient(180deg,var(--maroon2),var(--maroon) 50%,var(--maroon2));text-align:center}
+.gan{width:min(300px,70vw);margin:0 auto 40px;border-radius:50% 50% 14px 14px/38% 38% 14px 14px;overflow:hidden;border:2px solid var(--gold);box-shadow:0 0 0 8px rgba(227,183,95,.12),0 30px 80px rgba(0,0,0,.6),0 0 80px rgba(227,183,95,.25)}
+.gan img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:70% 30%;transform:scale(1.15)}
+.shl{font-family:'Tiro Devanagari Hindi',var(--serif);font-size:clamp(1.3rem,4vw,2rem);line-height:2.1;color:var(--gold2)}
+.shl small{display:block;font-family:var(--serif);font-style:italic;font-size:.8rem;color:var(--gold);letter-spacing:.1em;margin-bottom:4px;opacity:.8}
+.diya{display:flex;justify-content:center;gap:34px;margin-top:40px}
+.diya b{width:12px;height:22px;border-radius:50% 50% 50% 50%/65% 65% 35% 35%;background:radial-gradient(circle at 50% 70%,#fff6c8,#ffb938 55%,#ff6a00);box-shadow:0 0 18px 6px rgba(255,170,40,.7);animation:flick 1.2s ease-in-out infinite alternate;position:relative}
+.diya b:after{content:"";position:absolute;left:-9px;top:24px;width:30px;height:12px;border-radius:0 0 30px 30px;background:linear-gradient(#c18f35,#6a4513)}
+.diya b:nth-child(2n){animation-delay:.3s}.diya b:nth-child(3n){animation-delay:.6s}
+@keyframes flick{from{transform:scale(1) rotate(-3deg);opacity:.9}to{transform:scale(1.15,1.1) rotate(3deg);opacity:1}}
+
+/* INVITE */
+#invite{background:var(--ivory);color:var(--ink)}
+#invite:before,#invite:after{content:"";position:absolute;left:0;right:0;height:14px;background:repeating-linear-gradient(90deg,var(--gold3) 0 14px,transparent 14px 20px);opacity:.55}
+#invite:before{top:0}#invite:after{bottom:0}
+.card{max-width:760px;margin:0 auto;padding:60px 34px;text-align:center;border:1px solid var(--gold3);position:relative;background:rgba(255,255,255,.35);box-shadow:inset 0 0 0 8px var(--ivory),inset 0 0 0 9px var(--gold3)}
+.card .portrait{width:150px;height:150px;border-radius:50%;margin:0 auto 22px;overflow:hidden;border:3px solid var(--gold3);box-shadow:0 0 0 6px var(--ivory),0 0 0 7px var(--gold3)}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 25%}
+.card p{color:#5a3a22}
+.card .lead{font-size:clamp(1.25rem,3.2vw,1.6rem);font-style:italic;margin:6px 0}
+.card .host{font-family:var(--cin);font-weight:600;letter-spacing:.12em;color:var(--wine);font-size:clamp(1rem,2.8vw,1.25rem);margin:8px 0;line-height:1.5}
+.card .big{font-family:var(--disp);font-size:clamp(1.6rem,6vw,2.8rem);color:var(--wine);margin:14px 0 4px;line-height:1.2}
+.card .big em{font-family:var(--script);font-style:normal;color:var(--gold3);font-size:1.1em;display:block;line-height:1}
+.card .parents{font-size:.95rem;color:#6d4a2d;line-height:1.5}
+.card .parents b{color:var(--wine);font-weight:600}
+.dividerF{height:1px;width:180px;margin:20px auto;background:linear-gradient(90deg,transparent,var(--gold3),transparent)}
+.sw{position:absolute;width:70px;opacity:.5}
+
+/* COUNT */
+#count{background:radial-gradient(ellipse at center,var(--maroon),var(--maroon2));text-align:center}
+.cd{display:flex;justify-content:center;gap:clamp(8px,3vw,26px);margin-top:44px;flex-wrap:wrap}
+.cd div{width:clamp(72px,19vw,132px);padding:22px 4px;border:1px solid var(--gold3);border-radius:14px;background:rgba(255,255,255,.04);position:relative;overflow:hidden}
+.cd div:before{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:rgba(227,183,95,.25)}
+.cd b{display:block;font-family:var(--disp);font-size:clamp(1.7rem,6.5vw,3.4rem);font-weight:400;color:var(--gold2);line-height:1}
+.cd span{font-family:var(--cin);font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+.cd-note{margin-top:30px;font-style:italic;color:var(--gold2)}
+
+/* EVENTS */
+#events{background:linear-gradient(180deg,var(--maroon2),#3a0916 40%,var(--maroon2))}
+.day{margin-top:90px}
+.day-h{display:flex;align-items:baseline;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:44px;text-align:center}
+.day-h .n{font-family:var(--disp);font-size:clamp(3.6rem,14vw,7rem);line-height:1}
+.day-h .m{font-family:var(--cin);letter-spacing:.3em;text-transform:uppercase;color:var(--gold);font-size:.9rem;text-align:left}
+.ev{display:grid;grid-template-columns:1fr 1fr;gap:0;margin:0 auto 46px;border:1px solid rgba(227,183,95,.45);border-radius:6px;overflow:hidden;background:rgba(0,0,0,.25);box-shadow:0 25px 60px rgba(0,0,0,.45);position:relative}
+.ev:nth-child(even) .ev-img{order:2}
+.ev-img{position:relative;min-height:360px;overflow:hidden}
+.ev-img img{position:absolute;inset:-8% 0;width:100%;height:116%;object-fit:cover;object-position:50% 28%}
+.ev-img:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 60%,rgba(43,6,16,.8))}
+.ev:nth-child(even) .ev-img:after{background:linear-gradient(270deg,transparent 60%,rgba(43,6,16,.8))}
+.ev-t{padding:40px 34px;display:flex;flex-direction:column;justify-content:center;gap:6px}
+.ev-t .time{font-family:var(--cin);letter-spacing:.25em;font-size:.8rem;color:var(--gold)}
+.ev-t h3{font-family:var(--disp);font-weight:400;font-size:clamp(1.6rem,4vw,2.4rem);line-height:1.15;color:var(--gold2)}
+.ev-t .hi{font-family:'Tiro Devanagari Hindi',serif;color:var(--gold);font-size:1rem}
+.ev-t p{font-size:1rem;opacity:.85}
+.ev-t .where{margin-top:8px;display:inline-flex;gap:8px;align-items:center;font-family:var(--cin);font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ivory);border-top:1px solid rgba(227,183,95,.4);padding-top:12px}
+.ev-t .where:before{content:"✦";color:var(--gold)}
+.ev .no{position:absolute;top:10px;right:16px;font-family:var(--disp);font-size:3.4rem;color:rgba(227,183,95,.12);line-height:1}
+.dress{display:inline-block;margin-top:6px;font-size:.85rem;font-style:italic;color:var(--gold)}
+
+/* COUPLE */
+#couple{background:radial-gradient(ellipse at top,#5a1022,var(--maroon2) 75%);text-align:center}
+.pair{display:flex;justify-content:center;align-items:flex-start;gap:clamp(18px,5vw,70px);margin-top:56px;flex-wrap:wrap}
+.pc{width:min(330px,82vw);position:relative}
+.pc:nth-child(3){margin-top:70px}
+.pc .fr{aspect-ratio:2/3;border-radius:999px 999px 14px 14px;overflow:hidden;border:2px solid var(--gold);box-shadow:0 0 0 9px rgba(227,183,95,.1),0 30px 70px rgba(0,0,0,.6),0 0 90px rgba(227,183,95,.22);position:relative}
+.pc .fr img{width:100%;height:100%;object-fit:cover;object-position:50% 12%;transform:scale(1.12)}
+.pc .fr:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 65%,rgba(43,6,16,.55));pointer-events:none}
+.pc h3{font-family:var(--script);font-weight:400;font-size:clamp(2.6rem,8vw,3.8rem);margin-top:22px;line-height:1}
+.pc p{font-family:var(--cin);letter-spacing:.22em;font-size:.68rem;text-transform:uppercase;color:var(--gold);margin-top:6px}
+.pc small{display:block;font-size:.95rem;font-style:italic;opacity:.85;margin-top:8px}
+.heart{align-self:center;font-family:var(--script);font-size:clamp(3rem,8vw,5rem);animation:beat 1.6s ease-in-out infinite;margin-top:120px}
+@keyframes beat{50%{transform:scale(1.18)}}
+@media(max-width:760px){.pc:nth-child(3){margin-top:0}.heart{margin-top:0}}
+
+/* VENUE */
+#venue{background:var(--ivory);color:var(--ink);text-align:center}
+#venue .eyebrow{color:var(--gold3)}
+#venue h2{color:var(--wine)}
+.vimg{margin:44px auto 0;max-width:980px;position:relative;border-radius:200px 200px 10px 10px;overflow:hidden;border:2px solid var(--gold3);box-shadow:0 0 0 10px var(--ivory),0 0 0 11px var(--gold3),0 40px 80px rgba(74,13,26,.35);aspect-ratio:16/10;background:linear-gradient(135deg,#7a1730,#2b0610)}
+.vimg img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.vtxt{max-width:680px;margin:50px auto 0;color:#5a3a22}
+.vtxt h3{font-family:var(--disp);color:var(--wine);font-weight:400;font-size:1.7rem}
+.facts{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin:34px 0}
+.facts span{padding:10px 20px;border:1px solid var(--gold3);border-radius:99px;font-family:var(--cin);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--wine);background:rgba(227,183,95,.12)}
+.btn{display:inline-block;padding:15px 34px;border-radius:99px;font-family:var(--cin);letter-spacing:.22em;text-transform:uppercase;font-size:.75rem;text-decoration:none;color:var(--maroon2);background:linear-gradient(120deg,#a97b2c,#f7e2a1,#c18f35);background-size:200% 100%;border:none;cursor:pointer;transition:.4s;box-shadow:0 10px 30px rgba(169,123,44,.4)}
+.btn:hover{background-position:100% 0;transform:translateY(-3px);box-shadow:0 16px 40px rgba(169,123,44,.55)}
+.btn.o{background:transparent;color:var(--gold2);border:1px solid var(--gold);box-shadow:none}
+.btn.o:hover{background:rgba(227,183,95,.15)}
+
+/* FILM */
+#film{background:radial-gradient(ellipse at top,#5a1022,var(--maroon2) 70%);text-align:center}
+.phone{width:min(330px,82vw);margin:46px auto 0;aspect-ratio:9/16;border-radius:34px;padding:10px;background:linear-gradient(145deg,var(--gold2),var(--gold3));box-shadow:0 40px 90px rgba(0,0,0,.7),0 0 100px rgba(227,183,95,.2)}
+.phone video{width:100%;height:100%;object-fit:cover;border-radius:26px;background:#000}
+
+/* FAMILY */
+#family{background:var(--maroon);text-align:center}
+.fam{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px;margin-top:50px;text-align:center}
+.fam div{padding:32px 24px;border:1px solid rgba(227,183,95,.35);border-radius:6px;background:rgba(0,0,0,.18)}
+.fam h4{font-family:var(--cin);color:var(--gold);letter-spacing:.25em;font-size:.72rem;text-transform:uppercase;margin-bottom:14px;font-weight:400}
+.fam p{font-size:1.05rem;line-height:1.7}
+.fam p b{font-weight:600;color:var(--gold2)}
+.mithi{margin:60px auto 0;max-width:560px;font-style:italic;font-size:1.25rem;color:var(--gold2)}
+.mithi small{display:block;font-family:var(--cin);font-style:normal;font-size:.68rem;letter-spacing:.3em;color:var(--gold);margin-bottom:8px;text-transform:uppercase}
+
+/* RSVP */
+#rsvp{background:linear-gradient(180deg,var(--maroon),var(--maroon2));text-align:center;padding-bottom:140px}
+#rsvp .imgc{width:min(360px,86vw);margin:0 auto 40px;border-radius:14px;overflow:hidden;border:1px solid var(--gold)}
+#rsvp .big{font-family:var(--script);font-size:clamp(2.6rem,9vw,5rem);margin:6px 0}
+.btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:34px}
+footer{padding:30px 20px 50px;text-align:center;background:var(--maroon2);font-family:var(--cin);letter-spacing:.3em;font-size:.65rem;color:var(--gold);text-transform:uppercase}
+.sp{position:absolute;z-index:1;pointer-events:none;border-radius:50%;background:radial-gradient(circle,rgba(247,226,161,.9),transparent 70%)}
+.rv{opacity:0}
+@media(max-width:760px){
+  body{font-size:18px}
+  section{padding:80px 18px}
+  .ev{grid-template-columns:1fr}
+  .ev:nth-child(even) .ev-img{order:0}
+  .ev-img{min-height:300px}
+  .ev-img:after,.ev:nth-child(even) .ev-img:after{background:linear-gradient(180deg,transparent 55%,rgba(43,6,16,.85))}
+  .ev-t{padding:28px 22px 34px}
+  .card{padding:46px 20px}
+}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body class="locked">
+<div id="bar"></div>
+<canvas id="fx"></canvas>
+<button id="music" aria-label="Toggle music">♪</button>
+
+<!-- GATE -->
+<div id="gate">
+  <div class="door l"></div><div class="door r"></div>
+  <div class="gate-in">
+    <div class="om">॥ श्री आदेश्वर नाथाय नमः ॥</div>
+    <div class="mono gold">P<span>&amp;</span>Y</div>
+    <p>You are cordially invited</p>
+    <button class="seal" id="open">Tap to<br>Open</button>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="bg"></div>
+  <div class="hero-c">
+    <div class="family rv">Nagotra Chouhan Family</div>
+    <h1 class="names" id="names"><span class="ln">Pakshal</span><span class="amp">&amp;</span><span class="ln">Yashvi</span></h1>
+    <div class="rv"><span class="ribbon">Wedding Invitation</span></div>
+    <div class="hero-date rv">30<sup>th</sup> November – 2<sup>nd</sup> December 2026</div>
+    <div class="hero-loc rv">Rawla Sagrun · Kumbhalgarh · Rajasthan</div>
+  </div>
+  <div class="scrollhint">Scroll</div>
+</section>
+
+<!-- SHLOKA -->
+<section id="shloka">
+  <div class="wrap">
+    <div class="gan rv"><img src="assets/s0.jpg" alt="Lord Ganesha" id="ganimg"></div>
+    <div class="shl">
+      <div class="rv"><small>Jai Jinendra</small>श्री आदेश्वर नाथाय नमः</div>
+      <div class="rv">श्री शंखेश्वर पार्श्वनाथाय नमः</div>
+      <div class="rv">श्री अम्बिका देवी नमः</div>
+      <div class="rv">श्री गणेशाय नमः</div>
+    </div>
+    <div class="diya rv"><b></b><b></b><b></b><b></b><b></b></div>
+  </div>
+</section>
+
+<!-- INVITE -->
+<section id="invite">
+  <div class="card rv">
+    <p class="eyebrow" style="color:var(--gold3)">Divine Blessings</p>
+    <p class="host" style="margin-top:14px">Smt. Sangaribai Nanchandji<br>&amp;<br>Sanghvi Subham V Jain</p>
+    <div class="dividerF"></div>
+    <p class="lead">Solicit your gracious presence at the wedding celebration of their beloved Grandson</p>
+    <p class="host">Smt. Anjana Kumari &amp; Sanghvi Ranjeet Kumar Nanchandji</p>
+    <div class="big gold" style="background-image:linear-gradient(100deg,#7a1730,#a97b2c,#7a1730);-webkit-background-clip:text;background-clip:text;animation:none">
+      Pakshal <em>with</em> Yashvi
+    </div>
+    <div class="dividerF"></div>
+    <p class="parents"><b>Pakshal</b> — S/o Smt. Rinku &amp; Sanghvi Arun Kumar<br>
+    <b>Yashvi</b> — D/o Lt. Smt. Shanti Bai &amp; Lt. Shri Kundanmalji Bherumalji</p>
+    <p class="lead" style="margin-top:26px">on <b>2<sup>nd</sup> December 2026</b><br>at Rawla Sagrun, Kumbhalgarh, Rajasthan</p>
+  </div>
+</section>
+
+<!-- COUPLE -->
+<section id="couple">
+  <div class="wrap">
+    <p class="eyebrow" style="text-align:center">Two Souls, One Journey</p>
+    <h2 class="sec gold">The Couple</h2>
+    <div class="orn"><i>❖</i></div>
+    <div class="pair">
+      <div class="pc rv"><div class="fr"><img src="assets/groom.jpg" alt="Pakshal"></div>
+        <h3 class="gold">Pakshal</h3><p>The Groom</p><small>S/o Smt. Rinku &amp; Sanghvi Arun Kumar</small></div>
+      <div class="heart gold">&amp;</div>
+      <div class="pc rv"><div class="fr"><img src="assets/bride.jpg" alt="Yashvi"></div>
+        <h3 class="gold">Yashvi</h3><p>The Bride</p><small>D/o Lt. Smt. Shanti Bai &amp; Lt. Shri Kundanmalji Bherumalji</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- COUNTDOWN -->
+<section id="count">
+  <div class="wrap">
+    <p class="eyebrow" style="text-align:center">Until the Pheras</p>
+    <h2 class="sec gold">Counting every moment</h2>
+    <div class="orn"><i>❖</i></div>
+    <div class="cd" id="cd">
+      <div><b id="cd-d">00</b><span>Days</span></div>
+      <div><b id="cd-h">00</b><span>Hours</span></div>
+      <div><b id="cd-m">00</b><span>Minutes</span></div>
+      <div><b id="cd-s">00</b><span>Seconds</span></div>
+    </div>
+    <p class="cd-note" style="text-align:center">Lagan Lagi Re · 2 December 2026 · 8:50 PM</p>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section id="events">
+  <div class="wrap">
+    <p class="eyebrow" style="text-align:center">The Celebrations</p>
+    <h2 class="sec gold">Three Days of Joy</h2>
+    <div class="orn"><i>❖</i></div>
+    <div id="days"></div>
+  </div>
+</section>
+
+<!-- VENUE -->
+<section id="venue">
+  <div class="wrap">
+    <p class="eyebrow">The Venue</p>
+    <h2 class="sec">Rawla Sagrun</h2>
+    <div class="orn" style="color:var(--gold3)"><i>❖</i></div>
+    <p class="lead" style="font-style:italic;font-size:1.3rem;color:#5a3a22">Amid the Aravalli hills, a heritage retreat in the shadow of the great Kumbhalgarh Fort.</p>
+    <div class="vimg rv">
+      <img src="https://rawlasagrun.com/images/facade/DJI_0199-HDR.webp" alt="Rawla Sagrun" onerror="this.src='assets/c132.jpg'" referrerpolicy="no-referrer">
+    </div>
+    <div class="vtxt rv">
+      <h3>Bid ki Bagal, Fort Road</h3>
+      <p>Kumbhalgarh, Rajasthan 313325</p>
+      <div class="facts">
+        <span>5 km from Kumbhalgarh Fort</span><span>Manek Lawn</span><span>Mewar Lawn</span><span>Poolside</span>
+      </div>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rawla+Sagrun+Kumbhalgarh">Get Directions</a>
+      &nbsp;<a class="btn" style="background:transparent;border:1px solid var(--gold3);color:var(--wine);box-shadow:none" target="_blank" rel="noopener" href="https://rawlasagrun.com/">Visit Venue</a>
+    </div>
+  </div>
+</section>
+
+<!-- FILM -->
+<section id="film">
+  <div class="wrap">
+    <p class="eyebrow" style="text-align:center">Our Invitation Film</p>
+    <h2 class="sec gold">Watch the story</h2>
+    <div class="phone rv"><video src="assets/film.mp4" poster="assets/c56.jpg" controls playsinline preload="none"></video></div>
+  </div>
+</section>
+
+<!-- FAMILY -->
+<section id="family">
+  <div class="wrap">
+    <p class="eyebrow" style="text-align:center">With Love &amp; Blessings</p>
+    <h2 class="sec gold">Awaiting your presence</h2>
+    <div class="orn"><i>❖</i></div>
+    <div class="fam">
+      <div class="rv"><h4>Awaiting Your Gracious Presence</h4><p><b>Smt. Anjana Kumari &amp;<br>Sanghvi Ranjeet Kumar Nanchandji</b></p></div>
+      <div class="rv"><h4>Special Wishes</h4><p>Smt. Rinku Jain – Sanghvi Arun Kumar Jain<br>Smt. Seema Jain – Sanghvi Vikash Kumar Jain<br>Ruhisha Jain – Kashish Jain | Pranay V Jain</p></div>
+      <div class="rv"><h4>Samdhi Paksh</h4><p><b>Sha Bherumalji Kundanmalji</b><br>(Davangere – Jawal)</p></div>
+    </div>
+    <div class="mithi rv"><small>Mithi Manhuar</small>“Mere Chachu ki shaadi me jaroor jaroor aana”<br>— Yuvansh Jain</div>
+    <p class="rv" style="text-align:center;margin-top:44px;font-family:var(--cin);font-size:.68rem;letter-spacing:.3em;color:var(--gold);text-transform:uppercase">Firm: Sri Vikash Plastic Corporation</p>
+  </div>
+</section>
+
+<!-- RSVP -->
+<section id="rsvp">
+  <div class="wrap">
+    <div class="imgc rv"><img src="assets/couple.jpg" alt="Pakshal and Yashvi welcome you"></div>
+    <p class="eyebrow">Padharo Mhare Desh</p>
+    <div class="big gold">See you in Kumbhalgarh</div>
+    <p style="font-style:italic;color:var(--gold2)">Your presence will make our celebration complete.</p>
+    <div class="btns">
+      <a class="btn" id="wa" target="_blank" rel="noopener">Confirm on WhatsApp</a>
+      <button class="btn o" id="share">Share Invitation</button>
+      <button class="btn o" id="cal">Add to Calendar</button>
+    </div>
+  </div>
+</section>
+<footer>Pakshal ✦ Yashvi · 30 Nov – 2 Dec 2026 · Jai Jinendra</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+/* ---------- CONFIG: edit these ---------- */
+const RSVP_PHONE = "";            // e.g. "919876543210" (country code, no +). Leave empty to let guests pick a contact.
+const WEDDING = new Date("2026-12-02T20:50:00+05:30");
+const EVENTS = [
+ {day:"30",mon:"November 2026",items:[
+  {t:"10:30 AM onwards",n:"Paath Bithai",hi:"पाठ बिठाई",p:"Prayers and blessings to begin the celebrations.",w:"Banquet Hall",img:"c60"},
+  {t:"7:30 PM onwards",n:"Jamai Tilak",hi:"जमाई तिलक",p:"A warm, traditional welcome for the son-in-law.",w:"Poolside",img:"c70"}]},
+ {day:"01",mon:"December 2026",items:[
+  {t:"10:30 AM onwards",n:"Jashn-e-Carnival",hi:"जश्न-ए-कार्निवल",p:"Balloons, masks, colour and laughter — a carnival day for everyone.",w:"Manek Lawn",img:"c80",dress:"Come dressed in your brightest colours"},
+  {t:"8:00 PM onwards",n:"Beats & Beyond",hi:"बीट्स एंड बियॉन्ड",p:"A glittering night of music, dance and dazzling lights.",w:"Mewar Lawn",img:"c86",dress:"Cocktail glamour"}]},
+ {day:"02",mon:"December 2026",items:[
+  {t:"10:00 AM onwards",n:"Padharo Mhare Desh",hi:"पधारो म्हारे देश",p:"Rajasthani hospitality, rituals and a feast to welcome you.",w:"Manek Lawn",img:"c102"},
+  {t:"5:30 PM onwards",n:"Baraat Procession",hi:"बारात",p:"Dhol, horses and dancing as the groom arrives in grand style.",w:"Rawla Sagrun",img:"c106"},
+  {t:"7:00 PM onwards",n:"Mala-e-Ishq",hi:"माला-ए-इश्क़",p:"The jaimala — two hearts, one garland, under a sky of fireworks.",w:"Building Front",img:"c116"},
+  {t:"8:50 PM onwards",n:"Lagan Lagi Re",hi:"लगन लगी रे",p:"The sacred pheras. The moment we have all been waiting for.",w:"Mewar Lawn",img:"c130"}]}
+];
+/* --------------------------------------- */
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+/* build events */
+$('#days').innerHTML=EVENTS.map(d=>`
+ <div class="day"><div class="day-h"><div class="n gold">${d.day}</div><div class="m">${d.mon.split(' ')[0]}<br>${d.mon.split(' ')[1]}</div></div>
+ ${d.items.map((e,i)=>`<article class="ev rv"><div class="ev-img"><img loading="lazy" src="assets/${({c60:'ev-paath',c70:'ev-jamai',c80:'ev-jashn',c86:'ev-beats',c102:'ev-padharo',c106:'ev-baraat',c116:'ev-mala',c130:'ev-lagan'})[e.img]}.jpg" alt="${e.n}"></div>
+  <div class="ev-t"><div class="time">${e.t}</div><h3>${e.n.replace('&','&amp;')}</h3><div class="hi">${e.hi}</div><p>${e.p}</p>${e.dress?`<span class="dress">Dress code: ${e.dress}</span>`:''}<div class="where">${e.w}</div></div></article>`).join('')}
+ </div>`).join('');
+
+/* split hero names to letters */
+$$('#names .ln').forEach(el=>{el.innerHTML=[...el.textContent].map(c=>`<span class="ch">${c}</span>`).join('');el.style.display='block'});
+
+/* countdown */
+function tick(){let ms=WEDDING-new Date();if(ms<0)ms=0;const s=Math.floor(ms/1000);
+ const v={d:Math.floor(s/86400),h:Math.floor(s%86400/3600),m:Math.floor(s%3600/60),s:s%60};
+ for(const k in v)$('#cd-'+k).textContent=String(v[k]).padStart(2,'0')}
+tick();setInterval(tick,1000);
+
+/* petals + gold dust canvas */
+const cv=$('#fx'),cx=cv.getContext('2d');let W,H,dpr=Math.min(devicePixelRatio||1,2);
+function size(){W=innerWidth;H=innerHeight;cv.width=W*dpr;cv.height=H*dpr;cx.setTransform(dpr,0,0,dpr,0,0)}size();addEventListener('resize',size);
+const cols=['#e8566d','#ff8fa3','#ffd1dc','#ffb703','#fb8500','#fff0b3'];
+const N=innerWidth<700?28:55;
+const P=Array.from({length:N},()=>mk(true));
+function mk(init){return{x:Math.random()*W,y:init?Math.random()*H:-30,s:6+Math.random()*10,r:Math.random()*6.28,vr:(Math.random()-.5)*.05,vy:.5+Math.random()*1.2,vx:(Math.random()-.5)*.6,ph:Math.random()*6.28,c:cols[Math.random()*cols.length|0],gold:Math.random()<.25}}
+let on=false;
+function draw(){requestAnimationFrame(draw);cx.clearRect(0,0,W,H);if(!on)return;
+ for(const p of P){p.ph+=.02;p.x+=p.vx+Math.sin(p.ph)*.7;p.y+=p.vy;p.r+=p.vr;
+  if(p.y>H+30){Object.assign(p,mk(false));p.x=Math.random()*W}
+  cx.save();cx.translate(p.x,p.y);cx.rotate(p.r);
+  if(p.gold){cx.fillStyle='rgba(247,226,161,.85)';cx.shadowColor='#e3b75f';cx.shadowBlur=10;cx.beginPath();cx.arc(0,0,p.s/5,0,6.28);cx.fill()}
+  else{cx.scale(1,.55+Math.abs(Math.sin(p.ph))*.45);cx.fillStyle=p.c;cx.globalAlpha=.85;cx.beginPath();cx.ellipse(0,0,p.s,p.s*.55,0,0,6.28);cx.fill()}
+  cx.restore()}}
+if(!reduce)draw();
+
+/* sparkle trail */
+let lastS=0;
+addEventListener('pointermove',e=>{if(!on||reduce||innerWidth<700)return;const n=performance.now();if(n-lastS<40)return;lastS=n;
+ const d=document.createElement('i');d.className='sp';const z=6+Math.random()*10;
+ d.style.cssText=`left:${e.clientX-z/2}px;top:${e.clientY-z/2}px;width:${z}px;height:${z}px;position:fixed;z-index:60`;
+ document.body.appendChild(d);gsap.to(d,{y:30+Math.random()*30,x:(Math.random()-.5)*40,opacity:0,scale:.2,duration:1,onComplete:()=>d.remove()})});
+
+/* music */
+const audio=new Audio('assets/music.mp3');audio.loop=true;audio.volume=.55;
+const mb=$('#music');
+function setM(p){mb.classList.toggle('paused',!p);mb.textContent=p?'♪':'🔇'}
+mb.onclick=()=>{if(audio.paused){audio.play();setM(true)}else{audio.pause();setM(false)}};
+/* pause bg music when film plays */
+$('#film video').addEventListener('play',()=>{audio.pause();setM(false)});
+
+/* OPEN GATE */
+$('#open').onclick=()=>{
+ audio.play().then(()=>{mb.classList.add('on');setM(true)}).catch(()=>{mb.classList.add('on');setM(false)});
+ const tl=gsap.timeline({onComplete:()=>{$('#gate').remove();document.body.classList.remove('locked');on=true;ScrollTrigger.refresh()}});
+ tl.to('.gate-in',{scale:1.25,opacity:0,duration:.8,ease:'power2.in'})
+   .to('.door.l',{xPercent:-102,duration:1.6,ease:'power3.inOut'},.3)
+   .to('.door.r',{xPercent:102,duration:1.6,ease:'power3.inOut'},.3)
+   .to('#gate',{opacity:0,duration:.5},'-=.4');
+ on=true;
+ gsap.from('#hero .bg',{scale:1.35,duration:3.2,ease:'power2.out',delay:.3});
+ gsap.from('.ch',{y:90,opacity:0,rotationX:-90,transformOrigin:'50% 100%',stagger:.07,duration:1.2,ease:'back.out(1.6)',delay:1});
+ gsap.from('#names .amp',{scale:0,opacity:0,duration:1.2,ease:'elastic.out(1,.5)',delay:1.6});
+ gsap.to('#hero .rv',{opacity:1,y:0,stagger:.25,duration:1.2,delay:1.1,ease:'power3.out'});
+ gsap.set('#hero .rv',{y:30});
+ gsap.from('.scrollhint',{opacity:0,delay:3});
+};
+
+/* scroll animations */
+gsap.registerPlugin(ScrollTrigger);
+addEventListener('scroll',()=>{$('#bar').style.width=(scrollY/(document.documentElement.scrollHeight-innerHeight)*100)+'%'},{passive:true});
+$$('.rv').forEach(el=>{if(el.closest('#hero'))return;
+ gsap.fromTo(el,{opacity:0,y:60,scale:.96},{opacity:1,y:0,scale:1,duration:1.1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%'}})});
+gsap.to('#hero .bg',{yPercent:14,ease:'none',scrollTrigger:{trigger:'#hero',scrub:true,start:'top top',end:'bottom top'}});
+gsap.to('#hero .hero-c',{yPercent:-12,opacity:.2,ease:'none',scrollTrigger:{trigger:'#hero',scrub:true,start:'top top',end:'bottom 20%'}});
+gsap.to('#ganimg',{scale:1,ease:'none',scrollTrigger:{trigger:'#ganimg',scrub:true,start:'top 90%',end:'bottom 30%'}});
+$$('.ev').forEach(ev=>{
+ const im=ev.querySelector('.ev-img img');
+ gsap.fromTo(im,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:ev,scrub:true,start:'top bottom',end:'bottom top'}});
+ gsap.from(ev.querySelector('.ev-img'),{clipPath:'inset(0 100% 0 0)',duration:1.4,ease:'power3.inOut',scrollTrigger:{trigger:ev,start:'top 80%'}});
+});
+$$('.pc .fr img').forEach(im=>gsap.fromTo(im,{yPercent:-5},{yPercent:5,ease:'none',scrollTrigger:{trigger:im,scrub:true,start:'top bottom',end:'bottom top'}}));
+$$('.day-h .n').forEach(n=>gsap.from(n,{scale:.3,opacity:0,rotation:-8,duration:1.2,ease:'back.out(1.7)',scrollTrigger:{trigger:n,start:'top 85%'}}));
+gsap.from('.cd div',{y:60,opacity:0,rotationX:-60,stagger:.15,duration:1,ease:'back.out(1.4)',scrollTrigger:{trigger:'#cd',start:'top 85%'}});
+gsap.from('.shl > div',{opacity:0,y:30,stagger:.4,duration:1.2,scrollTrigger:{trigger:'.shl',start:'top 80%'}});
+
+/* actions */
+const msg="You're invited to the wedding of Pakshal & Yashvi — 30 Nov to 2 Dec 2026 at Rawla Sagrun, Kumbhalgarh. Nagotra Chouhan Family.";
+$('#wa').href=`https://wa.me/${RSVP_PHONE}?text=${encodeURIComponent("Jai Jinendra! We are delighted to confirm our presence at Pakshal & Yashvi's wedding. Names & number of guests: ")}`;
+$('#share').onclick=async()=>{const d={title:'Pakshal & Yashvi — Wedding Invitation',text:msg,url:location.href};
+ try{navigator.share?await navigator.share(d):(window.open('https://wa.me/?text='+encodeURIComponent(msg+' '+location.href)))}catch(e){}};
+$('#cal').onclick=()=>{const ics=`BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nSUMMARY:Pakshal & Yashvi Wedding\nDTSTART;VALUE=DATE:20261130\nDTEND;VALUE=DATE:20261203\nLOCATION:Rawla Sagrun\\, Bid ki Bagal\\, Fort Road\\, Kumbhalgarh\\, Rajasthan\nDESCRIPTION:Nagotra Chouhan Family invites you.\nEND:VEVENT\nEND:VCALENDAR`;
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([ics],{type:'text/calendar'}));a.download='pakshal-yashvi-wedding.ics';a.click()};
+</script>
+</body>
+</html>
