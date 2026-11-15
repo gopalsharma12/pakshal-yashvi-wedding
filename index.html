@@ -276,10 +276,10 @@ button,.btn{touch-action:manipulation;min-height:44px}
   <div class="wrap">
     <div class="gan rv"><img src="assets/s0.jpg" alt="Lord Ganesha" id="ganimg"></div>
     <div class="shl" lang="hi">
-      <div class="rv"><small>Jai Jinendra</small>श्री आदेश्वर नाथाय नमः</div>
-      <div class="rv">श्री शंखेश्वर पार्श्वनाथाय नमः</div>
-      <div class="rv">श्री अम्बिका देवी नमः</div>
-      <div class="rv">श्री गणेशाय नमः</div>
+      <div><small>Jai Jinendra</small>श्री आदेश्वर नाथाय नमः</div>
+      <div>श्री शंखेश्वर पार्श्वनाथाय नमः</div>
+      <div>श्री अम्बिका देवी नमः</div>
+      <div>श्री गणेशाय नमः</div>
     </div>
     <div class="diya rv"><b></b><b></b><b></b><b></b><b></b></div>
   </div>
@@ -518,7 +518,7 @@ $$('.ev').forEach(ev=>{
 $$('.pc .fr img').forEach(im=>gsap.fromTo(im,{yPercent:-5},{yPercent:5,ease:'none',scrollTrigger:{trigger:im,scrub:true,start:'top bottom',end:'bottom top'}}));
 $$('.day-h .n').forEach(n=>gsap.from(n,{scale:.3,opacity:0,rotation:-8,duration:1.2,ease:'back.out(1.7)',scrollTrigger:{trigger:n,start:'top 85%'}}));
 gsap.from('.cd div',{y:60,opacity:0,rotationX:-60,stagger:.15,duration:1,ease:'back.out(1.4)',scrollTrigger:{trigger:'#cd',start:'top 85%'}});
-gsap.from('.shl > div',{opacity:0,y:30,stagger:.4,duration:1.2,scrollTrigger:{trigger:'.shl',start:'top 80%'}});
+gsap.fromTo('.shl > div',{opacity:0,y:30},{opacity:1,y:0,stagger:.4,duration:1.2,ease:'power2.out',scrollTrigger:{trigger:'.shl',start:'top 85%'}});
 
 }
 /* actions */
